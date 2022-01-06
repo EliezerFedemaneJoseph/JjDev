@@ -1,0 +1,222 @@
+/* Body */
+body{
+    width: 95%;
+    /* background-color: aquamarine; */
+    margin: auto;
+    font-family: monospace;
+}
+#head{
+   background: url('../img/Captura\ de\ pantalla\ \(421\).png') no-repeat center center/cover ;
+   height: 521px;
+   padding-top: 10px;
+   font-family: monospace;
+}
+.nav-btn{
+    display: none;
+}
+
+/* logo */
+.ico{
+    width: 50px;
+    /* height: 50px; */
+    display: inline;
+    
+}
+.ico img{
+    width: 50px;
+    display: inline;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 0px;
+    padding-bottom: 0px;
+
+}
+.nav-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 30px;
+    /* display: none; */
+}
+.nav-btn ul li{
+    list-style: none;
+    height: 1px;
+    width: 1px;
+    opacity: .6;
+    background-color: wheat;
+}
+/* menu */
+.nav {
+        display: inline-block;
+        padding-left: 75%;
+}
+nav ul{
+    list-style: none;
+    font-size: 20px;
+    padding: 0px;
+    display: inline-block;
+    font-family: monospace;
+}
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+ 
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav ul li a:hover{
+    border-bottom:2px aquamarine solid;
+}
+
+/* texto */
+.text{
+    font-size: 90px;
+    color: whitesmoke;
+    font-family: monospace;
+    text-shadow: 5px 5px gray;
+    padding: 10px;
+    display: inline-block;
+}
+/* boton */
+.btn{
+    position: relative;
+    font-size: 25px;
+    font-family: monospace;
+    border: wheat 5px solid;
+    display: inline;
+    float: right;
+    padding: 15px;
+    margin-top: 250px;
+    margin-right: 50px;
+}
+.btn a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.btn:hover{
+    background-color: cyan;
+
+}
+.btn a:hover{
+    color: black;
+    border-bottom: black 2px solid;
+}
+/* texto */
+.text-des{
+    font-size: 25px;
+    color: burlywood;
+    font-family: monospace;
+}
+/* footer */
+a{
+    text-decoration: none;
+    color: azure;
+    font-size: 17px;
+    font-family: monospace;
+ 
+}
+strong{
+    text-decoration: none;
+    color: azure;
+    font-size: 17px;
+    font-family: monospace;
+}
+.copy{
+    text-align: center;
+}
+ul{
+    list-style: none;
+
+}
+footer{
+    background-color: gray;
+    /* text-align: center; */
+}
+.informacion{
+    display: inline-flex;
+
+}
+.redes-sociales{
+    display: inline-flex;
+
+}
+/* articulo */
+article{
+    font-family: monospace;
+    color: black;
+    display: flex;
+}
+.lorem{
+    font-size: 20px;
+    display: flex;
+    border: 10px;
+}
+.image{
+    width: 550px;
+    display: flex;
+    border-radius: 50px;
+    margin: 25px;
+    border: 10px;
+
+}
+
+
+
+
+
+
+
+@media(max-width:700px){
+    .nav-btn{
+        display: block;
+    }
+    nav{
+        display: inline-block;
+
+    }
+    nav ul{
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        font-family: monospace;
+        background-color: #2f3640;
+        height: 100%;
+        opacity: .9;
+        margin-top: 0px;
+        padding: 10px;
+        transform: translateX(-400px);
+        
+    }
+    nav ul .show {
+        transform: translateX(400px);
+    }
+
+    nav ul li{
+        display: block;
+
+    }
+    #head{
+        background-image: url(../img/Captura\ de\ pantalla\ \(421\.png)no-repeat center center/cover; 
+    }
+    /* .ico{
+        display: block;
+    } */
+    .text{
+        display: block;
+        font-size: 35px;
+        margin-top: 60px;
+    }
+    .btn{
+        font-size: 15px;
+        margin-top: 0px;
+        
+    }
+    .text-des{
+        font-size: 15px;
+ 
+    }
+}

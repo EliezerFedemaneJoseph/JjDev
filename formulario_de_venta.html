@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo web | Pedido</title>
+    <link rel="stylesheet" href="css/styleencargo.css">
+    <link rel="shortcut icon" href="icono/logo.ico" type="image/x-icon">
+</head>
+<body>
+    <header id="head">
+    <nav>
+        <!-- icono -->
+        <div class="ico">
+            <img src="icono/logo.png" alt="icono">
+        </div>
+        <div class="nav">
+        <ul>                
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="planes.html" target="_blank">Planes</a></li>
+        </ul>
+        </div>
+    </nav>
+    </header>
+    <hr>
+    <center>
+    <div class="form">
+    <Form class="form" action="" method="GET"> 
+        <Label class="label" type="text">Encarga tu Web aqui</Label><br>
+        <input class="input" type="text" name="nombre" placeholder="Nombre" required autofocus><br>
+        <input class="input" type="email" name="email" placeholder="Email@ejemplo.com" required><br>
+        <label class="label2">Describe tu porblema</label><br>
+        <textarea name="describe" id="describe" cols="30" rows="10"></textarea><br>
+        <label class="label2">Tipo de plan </label>
+        <select name="plan" id="plan" required>
+            <option>Plan 1</option>
+            <option>Plan 2</option>
+            <option>Plan 3</option>
+        </select><br>
+        <input class="btn-enviar" type="submit" value="Enviar">
+        <input class="btn-enviar" type="reset" value="Borrar">
+    </Form>
+    </div>
+    </center>
+</body>
+</html>
